@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiPlus } from 'react-icons/fi'
+import { FiPlus } from 'react-icons/fi';
 import { Map,TileLayer } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css'
+import 'leaflet/dist/leaflet.css';
 
-import MapMarkerImg from '../images/map-marker.svg'
-import '../styles/pages/orphanages-map.css'
+import MapMarkerImg from '../images/map-marker.svg';
+import '../styles/pages/orphanages-map.css';
 
 function orphanagesMap(){
     return(
