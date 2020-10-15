@@ -1,7 +1,7 @@
 import React from 'react';
-import { FiArrowDownRight, FiArrowRight} from 'react-icons/fi'
 
 import './styles/global.css'
+import 'leaflet/dist/leaflet.css';
 
 import Routes from './routes';
 
